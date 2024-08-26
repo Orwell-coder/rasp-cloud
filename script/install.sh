@@ -20,4 +20,4 @@ cp -rf ${UPGRADE_DIR}/conf/docker-compose.yaml ${TARGET_DIR}
 
 cd ${TARGET_DIR} && docker compose up -d 
 
-[ &? == 0 ] && echo -e "\033[32mInstall success.\033[0m" || echo -e "\033[31mInstall failed.\033[0m"
+[[ &? == 0 ]] && echo -e "\033[32mInstall success.\033[0m" || echo -e "\033[31mInstall failed.\033[0m"

@@ -4,7 +4,7 @@ LABEL author="guanorwell@gmail.com"
 
 WORKDIR /rasp-cloud
 
-ADD resouce/rasp-cloud.tar.gz /
+ADD resources/rasp-cloud.tar.gz /
 
 RUN mv /rasp-cloud* /rasp-cloud
 

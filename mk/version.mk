@@ -1,0 +1,2 @@
+RASP_CLOUD_VERSION_STRING = 1.3.7
+IMAGE_NAME = zx/rasp-cloud

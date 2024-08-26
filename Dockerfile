@@ -6,7 +6,7 @@ WORKDIR /rasp-cloud
 
 ADD resources/rasp-cloud.tar.gz /
 
-RUN mv /rasp-cloud* /rasp-cloud
+RUN mv /rasp-cloud-*/* /rasp-cloud
 
 EXPOSE 8086
 
